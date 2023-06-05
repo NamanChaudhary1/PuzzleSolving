@@ -1,2 +1,2 @@
 # PuzzleSolving
-In this i will be solving puzzles.
+In this repository I will be solving puzzles.
