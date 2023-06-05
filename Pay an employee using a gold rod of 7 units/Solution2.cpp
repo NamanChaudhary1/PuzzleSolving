@@ -23,6 +23,10 @@ void printPaymentSequence() {
             cout << "Day 6: Employer takes back 1 unit(s) of gold bar and gives 6 unit(s) of gold bar" << std::endl;
             payment = 6;
         }
+        else if (day == 7) {
+            std::cout << "Day 7: Employer gives 1 unit(s) of gold bar" << std::endl;
+            payment = 1;
+        }
         else {
             cout << "Day " << day << ": Employer gives " << payment << " unit(s) of gold bar" << std::endl;
         }
