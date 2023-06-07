@@ -1,0 +1,16 @@
+def calculate_maximum_runs():
+    runs_per_over = 33  # Runs scored per over
+    total_runs = 0
+    overs = 50
+
+    # Calculate runs for all full overs
+    total_runs += runs_per_over * (overs - 1)
+
+    # Calculate runs for the last over
+    total_runs += runs_per_over + 3  # Add 3 runs for the last ball
+
+    return total_runs
+
+
+maximum_runs = calculate_maximum_runs()
+print("Maximum runs a batsman can score: ", maximum_runs)
