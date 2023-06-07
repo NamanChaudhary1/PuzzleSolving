@@ -1,0 +1,11 @@
+To achieve this maximum score, the batsman can hit sixes (6 runs) off the first five balls of each over and take three runs off the last ball. This amounts to 33 runs per over.
+
+Considering there are 50 overs in a match, the total runs can be calculated as follows:
+
+50 overs x 33 runs per over = 1650 runs
+
+However, we also need to consider the runs scored in the last over. In the last over, the batsman can hit sixes off the first five balls (30 runs) and take three runs off the last ball. This adds an additional 33 runs.
+
+Therefore, the correct total maximum score would be:
+
+1650 runs (throughout the match) + 33 runs (last over) = 1653 runs
