@@ -1,0 +1,11 @@
+The Tower of Hanoi puzzle consists of three pegs and a set of disks of different sizes.
+The disks are initially stacked in ascending order of size on one peg, 
+with the smallest disk on top. The objective is to move the entire stack to another peg, 
+obeying the following rules: only one disk can be moved at a time, 
+each move consists of taking the top disk from one stack and placing it on top of another stack,
+and a larger disk cannot be placed on top of a smaller disk.
+
+Answer : use a recursive algorithm known as the "divide and conquer" : 
+(1) Move the top n-1 disks from the source peg to an auxiliary peg.
+(2) Move the largest disk from the source peg to the destination peg.
+(3) Move the n-1 disks from the auxiliary peg to the destination peg.
