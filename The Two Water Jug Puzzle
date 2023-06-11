@@ -1,0 +1,17 @@
+You are on the side of the river. You are given a m liter jug and a n liter jug where 0 < m < n. Both the jugs are initially empty. The jugs don’t have markings to allow measuring smaller quantities. You have to use the jugs to measure d liters of water where d < n. Determine the minimum no of operations to be performed to obtain d liters of water in one of jug. 
+The operations you can perform are: 
+
+Empty a Jug
+Fill a Jug
+Pour water from one jug to the other until one of the jugs is either empty or full.
+
+
+
+SOLUTION:-
+Fill the n liter jug and empty it into m liter jug.
+Whenever the n liter jug becomes empty fill it.
+Whenever the m liter jug becomes full empty it.
+Repeat steps 1, 2 and 3 till either n liter jug or the m liter jug contains d liters of water.
+(0,0)->(0,5)->(3,2)->(0,2)->(2,0)->(2,5)->(3,4)
+
+Hence the no of operations you need to perform are 6.
