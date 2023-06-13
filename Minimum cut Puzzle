@@ -1,0 +1,30 @@
+You have got someone working for you for five days and a gold bar to pay him. 
+You must give them a piece of gold at the end of every day.
+What are the fewest number of cuts to the bar of gold that will allow you to pay him 1/5th each day?
+
+Sol:-
+After two cut there are three pieces of [1 unit and two 2 units] or [two 1 units and one 3 unit]. Now perform the following transactions.
+[1 unit and two 2 units] 
+
+ 
+
+Days	Gold Bars(Vendor)	Gold Bars(Worker)
+Day 0	[1, 2, 2]	[]	Initially Worker have 0 Gold Bars unit.
+Day 1	[2, 2]	[1]	Pay the worker Gold Bar with 1 unit.
+Day 2	[1, 2]	[2]	Pay the worker Gold with 2 units and take back the gold bar with 1 unit.
+Day 3	[2]	[1, 2]	Pay the worker Gold Bar with 1 unit.
+Day 4	[1]	[2, 2]	Pay the worker Gold with 2 units and take back the gold bar with 1 unit.
+Day 5	[]	[1, 2, 2]	Pay the worker with only left Gold Bar with 1 unit.
+[two 1 units and one 3 unit] 
+
+
+Days	Gold Bars(Vendor)	Gold Bars(Worker)	
+Day 0	[1, 1, 3]	[]	Initially Worker have 0 Gold Bars unit.
+Day 1	[1, 3]	[1]	Pay the worker Gold Bar with 1 unit.
+Day 2	[3]	[1,1]	Pay the worker Gold with other 1 units.
+Day 3	[1,1]	[3]	Pay the worker Gold Bar with 3 unit and take back all the gold bar with 1 unit.
+Day 4	[1]	[1, 3]	Pay the worker Gold with 1 unit.
+Day 5	[]	[1, 1, 3]	Pay the worker with only left Gold Bar with 1 unit.
+
+
+Ans-2 cuts
