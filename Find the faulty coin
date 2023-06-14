@@ -1,0 +1,10 @@
+You have ten stacks of ten coins each and each of them weighs 10 gm. 
+However, one of the stacks is faulty and each of the coins in it weighs only 9 gms. 
+What is the least number of times you have to weigh to find the faulty coin?
+
+Solution :-
+The least number of times you have to weigh is just once! 
+Line up the stacks and pick 1 coin from first stack, 2 coins from second stack, 
+3 coins from third stack and so on. You will have a total of 55 coins. Now weigh it. 
+If all of them were the right weight, the total would be 550 gms. 
+If the total is 549, the first stack is faulty; if the total is 548 then the second stack is faulty and so on.
