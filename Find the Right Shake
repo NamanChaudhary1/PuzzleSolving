@@ -1,0 +1,17 @@
+You have three bottles of milkshakes that are all mislabelled. 
+One contains Oreoshake, another Kitkatshake, and the third has a mix of both in random proportion.
+How many minimum shakes would you have to taste to find out how to match the jars’ labels correctly?
+●A- Oreo Shake 
+●B- KitKat Shake 
+●C- Oreo-KitKat Shake (random proportion)
+
+Solution-
+We know that all bottles are mislabelled,i.e.
+Bottle A labelled as Oreo Shake is not OreoShake,
+and the same goes for all the other bottles. 
+Take a sip from the MixBottle,i.e.
+Bottle C .We know that it is not the mixed shake as it is mislabeled,
+so if it is the Oreoshake,then Bottle A is KitKat, since Bottle B is mislabeled as KitKat, 
+and therefore Bottle B is Mixed. Similarly,Bottle C isKitKat.
+Bottle B isOreo as Bottle A can’t be Oreo [mislabeled as Oreo].
+Therefore Bottle A is mixed. So we can correctly label the bottles in one tasting.
