@@ -1,0 +1,19 @@
+There are 8 batteries, but only 4 of them work. 
+You have to use them for a flashlight which needs only 2 working batteries. 
+To guarantee that the flashlight is turned on,
+what is the minimum number of battery pairs you need to test?
+
+
+Solution:-
+To solve this problem, the first step involves naming the batteries, for instance,
+A, B, C, D, E, F, G, and H. In this problem, you can’t compare 2 items directly. 
+If a combination of two batteries fail to turn the light on,
+it means either one or both the batteries aren’t working.
+The candidate has to approach the puzzle in a circular manner.
+
+The batteries are put test consecutively in the order AB, BC, and AC. 
+At most, one of the three batteries between A, B, And C is working, only if none of the pairs work.
+This also implies that at least three batteries between D, E, F, G, and H must be functional.
+DE combination is tried next.
+If they don’t work, at least 2 out of F, G, and H must work.
+Similarly, try the combinations FG, GH, and FH to positively asset which batteries really work.
