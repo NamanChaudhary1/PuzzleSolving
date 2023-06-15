@@ -1,0 +1,13 @@
+ There are 3 mislabeled jars, with apple and oranges in the first and second jar respectively.
+ The third jar contains a mixture of apples and oranges.
+ You can pick as many fruits as required to precisely label each jar.
+ Determine the minimum number of fruits to be picked up in the process of labeling the jars.
+ 
+ Sol:-
+ This is another tricky puzzle where you must really churn your brain.
+ A noticeable aspect in this puzzles is the fact that there’s a circular misplacement,
+ which implies if apple is wrongly labelled as Apple, Apple can’t be labelled as Orange, i.e.,
+ it has to be labeled as A+O. We are acquainted with the fact that everything is wrongly placed, 
+ which means A+O jar contains either Apple or Orange (but not both). The candidate picks one fruit from A+O, 
+ and let’s assume he gets an apple. He labels the jar as apple, however, jar labelled Apple can’t have A+O.
+ Thus, the third jar left in the process should be labelled A+O. Basically, picking only one fruit helps in correctly labeling the jars.
