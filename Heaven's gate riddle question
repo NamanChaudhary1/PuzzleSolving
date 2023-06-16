@@ -1,0 +1,15 @@
+Problem:-
+"You're standing in front of two doors. One door is the 'right' door, and the other is the 'wrong' door.
+There are two guards, one standing by each door. 
+One guard always tells the truth and the other always tells a lie. 
+You don't know which guard lies or tells the truth. 
+You can only ask one question to each guard to find the 'right' door.
+What is the question to ask?"
+
+
+Solution:-
+You can ask either guard,
+'If I ask the other guard which door is the "right" one, 
+what would they say?' 
+Because each guard's answer inevitably points to the 'wrong' door,
+you can then choose the opposite door.
