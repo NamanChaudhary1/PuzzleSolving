@@ -1,0 +1,10 @@
+Problem:-
+Three ants are in the corners of an equilateral triangle. 
+Each ant moves in a random direction along the edges of the triangle. 
+What is the probability that none of the ants collide with the triangle?
+
+
+Solution:-
+There's a 50% chance of the ants never meeting and a 50% that at least two can collide.
+So, the ants all can move in either a clockwise or counter-clockwise direction,
+which then splits your first 50% chance of the ants not colliding down to a 25% chance because half of 50 is 25.
