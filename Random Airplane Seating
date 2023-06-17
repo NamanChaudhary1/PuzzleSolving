@@ -1,0 +1,36 @@
+People are waiting in line to board a 100-seat airplane. 
+
+1 – Steve is the first person in the line. He gets on the plane but suddenly can’t remember what his seat number is, so he picks a seat at random. 
+
+2 – After that, each person who gets on the plane sits in their assigned seat if it’s available, otherwise they will choose an open seat at random to sit in. 
+
+3 – The flight is full and you are last in line. 
+
+Question: What is the probability that you get to sit in your assigned seat?
+
+
+Answer:-
+Two points to consider in the puzzle above:
+
+The probability that Steve picks out his assigned seat is fairly equal to the probability that he picks out your assigned seat.
+In a scenario where Steve neither selects his seat nor yours, then we have a possibility of two alternatives:
+if some other person chooses Steve’s seat at random, then you can have your assigned seat;
+If that doesn’t happen then you would be left with Steve’s seat in your hand
+With that being said, we can go on to find out the probability.
+
+Checking Probability:
+The scenario is that every person is choosing a random seat that includes Steve’s seat, so we can have three possible outcomes:
+
+Choosing your seat
+Choosing Steve’s seat
+Choosing someone else’s seat
+Hint in the Question: The probability of choosing Steve’s seat is always equal to the probability of taking your seat.
+
+This implies that the probability of you getting to choose your seat is equal to you not getting your seat to yourself.
+
+Scenario 1 –The possibility of a passenger picking out some other person’s seat will not affect your final result. In any such case, it will just pass the three above-given alternatives to the following passenger.
+
+Scenario 2 – As noted, the probability of some other passenger picking your seat is equivalent to the probability of Steve’s seat being chosen by some other passenger, (taking into consideration the final passenger with only two seats remaining).
+
+ Result – 
+The probability that you will get your assigned seat stands at 50% or 1/2 chance.
