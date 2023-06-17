@@ -1,0 +1,32 @@
+On this page you’ll come across the puzzle where you need to measure 5 liters of water in one of the jars that are provided to you.
+
+You are given four different jars of different capacities – 2 liters, 4 liters, 6 liters, and 8 liters respectively with an unlimited water supply. 
+
+Then you are asked to measure exactly 5 liters of water using all of them.
+
+Question:
+
+How will you do it?
+
+Solution:-
+We have 4 jars of water.
+Size  of jars —-> 2 L, 4 L, 6 L, and 8 L.
+Water supply is unlimited.
+
+Step 1:
+We have 4 jars, of different size.
+First we need to fill the 4-Liters jar completely.
+Now, empty it in the 6-Liters jar.
+Now, 4 liters jar is empty and 6 Liters jar is filled up to 4 liters.
+Fill the 4 liters jar again.
+So now, we have 4 liters water in both the jars i.e., 4 liters and 6 liters respectively.
+
+Step 2:
+Next, take both the 4 liters and 6-liter jars, and pour both of them into 2-liter empty jar at the same rate.
+Now, as we are emptying both the jar at the same rate, the 2-liter jar will be filled completely
+This leaves both 4 liters and 6-liter jar containing only 3 liters each.
+
+Step 3:
+Use either of the 4 liters or 6-liter jar which has 3 liters of water and use the 2-liter jar filled with water to fill the 8-liter jar.
+Finally, the 8-liter jar has 5 liters of water in it as asked.
+
