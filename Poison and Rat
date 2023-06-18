@@ -1,0 +1,16 @@
+There are 1000 wine bottles. 
+One of the bottles contains poisoned wine.
+A rat dies after one hour of drinking the poisoned wine. 
+How many minimum rats are needed to figure out which bottle contains
+poison in hour. 
+
+Solution: 
+We need to figure out in hour. We need 10 rats to figure out the
+poisoned bottle. The result is based on binary number system.
+We get 10 using ⌈ Log21000 ⌉. 
+
+The idea is to number bottles from 1 to 1000 and write their 
+corresponding binary numbers on the bottle. Each rat is assigned a position in the 
+binary numbers written on bottles. Let us take an example. Rat 1 represents 
+first bit in every bottle, rat 2 represents second bit and so on. 
+f rat numbers 2, 4 and 6 die, then bottle number 42 (Binary 0000101010) is poisoned. 
