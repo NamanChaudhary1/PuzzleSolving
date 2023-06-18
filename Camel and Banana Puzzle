@@ -1,0 +1,42 @@
+A person has 3000 bananas and a camel. 
+The person wants to transport the maximum number of bananas
+to a destination which is 1000 KMs away, using only the camel as a mode of transportation. 
+The camel cannot carry more than 1000 bananas at a time and eats a banana every km it travels.
+What is the maximum number of bananas that can be transferred to the
+destination using only camel (no other mode of transportation is allowed). 
+
+Solution:-
+Let’s see what we can infer from the question:
+
+We have a total of 3000 bananas.
+The destination is 1000KMs
+Only 1 mode of transport.
+Camel can carry a maximum of 1000 banana at a time.
+Camel eats a banana every km it travels.
+With all these points, we can say that person won’t be able to transfer any banana to the destination as the 
+camel is going to eat all the banana on its way to the destination.
+
+But the trick here is to have intermediate drop points, then, the camel can make several short trips in between. 
+
+Also, we try to maintain the number of bananas at each point to be multiple of 1000.
+
+Let’s have 2 drop points in between the source and destination.
+
+With 3000 bananas at the source. 2000 at a first intermediate point and 1000 at 2nd intermediate point.
+
+Let’s see the total number of bananas consumed at every point.
+
+From the source to IP1 its 5x bananas, as the distance between the source and IP1 is x km and the camel had 5 trips.
+From IP1 to IP2 its 3y bananas, as the distance between IP1 and IP2 is y km and the camel had 3 trips.
+From IP2 to destination its z bananas.
+We now try to calculate the distance between the points:
+
+3000 – 5x = 2000 so we get x = 200
+2000-3y = 1000 so we get y = 333.33 but here the distance is also the number of bananas and it cannot be fraction so we take y =333 and at IP2 we have the number of bananas equal 1001, so its 2000-3y = 1001
+So the remaining distance to the market is 1000 -x-y =z i.e  1000-200-333 => z =467.
+Now, there are 1001 bananas at IP2. However the camel can carry only 1000 bananas at a time, so we need to leave one banana behind.
+
+So from IP2 to the destination point camel eats 467 bananas. The remaining bananas are 1000-467=533.
+ 
+
+So the maximum number of bananas that can be transferred is 533.
