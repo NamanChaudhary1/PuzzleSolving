@@ -1,0 +1,29 @@
+In Daughter’s Ages Puzzle, Raj has three daughters. His friend Shyam wants to know the ages of his daughters. Raj gives him a hint:-
+
+The product of their age is 72 (However, Shyam cannot guess so he asks for another hint)
+The Sum of their ages is the same as my house number. (Shyam goes out and checks the house number, but he is still unable to find the ages.)
+My oldest daughter loves to paint (With this hint Shyam can guess their ages correctly. What were the ages of the 3 daughters?)
+
+Solution:-
+Let their ages be a, b and c respectively.
+
+From hint 1:
+We get 12 possible equations, such that a*b*c=72.
+
+1*1*72 = 72
+
+1*2*36 = 72
+
+1*3*24=  72, and so on
+From hint 2 :
+ We know that the sum of the ages gives the house number. 
+
+Among the 12 possible equations, each combination gives a unique sum except for two combinations, which have the same sum.
+
+ These are:- 2*6*6 and 3*3*8, with sum = 14.
+Since Shyam was unable to guess from the 2nd hint, we can say that the house number was 14, and having 2 combinations resulting in 14 confused him.
+
+From hint 3 :
+ Raj mentions “oldest” daughter, as in one of the three is the oldest. Therefore, we can rule out 2,6,6.
+
+Thus the ages of the daughters are 3,3.8.
