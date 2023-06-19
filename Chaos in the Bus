@@ -1,0 +1,12 @@
+In Chaos in the Bus Puzzle, there is a bus with 100 labeled seats (labeled from 1 to 100). 100 people are standing in a queue. Persons are also labeled from 1 to 100. People board the bus in sequence from 1 to n.
+
+The rule is, if a person ‘i’ boards the bus, he checks if seat ‘i’ is empty. If it is empty, he sits there, else he randomly picks an empty seat and sits there. Given that 1st person picks the seat randomly, find the probability that the 100th person sits in his place i.e. 100th seat in. 
+
+
+Solution:-
+Here we will learn how to solve Chaos in the Bus Puzzle – 
+
+The probability that the last person ends up in his proper seat is exactly 1/2.
+First, observe that the fate of the last person is determined the moment either the first or the last seat is selected.
+This is because the last person will either get the first seat or the last seat.
+Since at each choice step, the first or last is equally probable to be taken, the last person will get either the first or last with an equal probability of 1/2.
