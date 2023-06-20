@@ -1,0 +1,29 @@
+When a hungry worm reaches a tree, it consumes the leaves in order. The premise, rules, and objective of the worm and leaves puzzle are given below:-
+
+Premise – DAY 1: The worm consumes one leaf.
+TWICE(DAY 1)= 2 leaves on day 2
+TWICE(DAY 2)=4 leaves on day 3
+DAY 4: DOUBLE (DAY 3) = 8 leaves, and so forth…. (up to 30 days)
+Rules – The above eating pattern continues for 30 days, and on the 30th day, all of the leaves are consumed.
+Objective – When did the worm eat exactly half of the total number of leaves?
+
+Solution:-
+To make the math easier, we’ll use a total period of 4 days rather than 30 days.
+
+DAY ONE: The worm consumes one leaf.
+The worm consumes two leaves on 2nd day.
+The worm consumes 4 leaves 3rd day.
+The worm consumes 8 leaves on 4th day.
+Related Pages
+Random Seats Airplane Puzzle
+10 Coconuts
+Colour of the last ball
+Total Number of Leaves Consumed
+On the fourth day, all of the leaves are done. As a result, there are a total of 15 leaves (1 + 2 + 4 + 8 = 15).
+Total Number of Leaves on the Tree
+(15/2 = 7.5) is just half of the total number of leaves on the tree.
+The worm can finish a total of 7 leaves by the end of day 3.
+As a result, only half of the total number of leaves on the tree can be completed on day 4, the final day.
+As a result, the overall time length of the supplied riddle is 30 days.
+Therefore, the Conclusion is:-
+On Day 30, i.e. the last day, the worm consumes exactly half of the total number of leaves.
