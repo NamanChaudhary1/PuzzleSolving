@@ -1,0 +1,22 @@
+n Maximum Runs in Cricket Puzzle, we have a one-day international cricket match.
+In a one-day international cricket match, 
+considering no extras(no wide, no ‘no’ balls, etc.) and no overthrows.
+What is the maximum number of runs that a batsman can score in an ideal case?
+
+
+Solution:-
+ From Over 1 to 49:
+
+ In singe over we get –
+
+In 1st ball, we get :- 6 runs (hit six)
+In 2nd ball, we get :- 6 runs (hit six)
+In 3rd ball, we get :- 6 runs (hit six)
+In the 4th ball we get:- 6 runs (hit six)
+In the 5th ball we get:- 6 runs (hit six)
+In the 6th ball we get:- 3 runs (took 3 runs between the wickets and take back the strike)
+  Therefore, Total Run in 49 overs will be = 49*(6*5+3)
+
+  Now in 50th Over: Hit six sixes in a row, so total runs will be –
+
+ 49*(6*5+3)+(6*6)= 1653 
