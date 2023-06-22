@@ -1,0 +1,17 @@
+There are ten bandits named as ’A’, ‘B’ ,‘C’ ,‘D’ ,‘E’ ,‘F’ ,‘G’ ,‘H’ ,‘I’ ,‘J’  they stole some precious stones from a temple,
+and they decided to divide these stones equally among themselves. 
+So they split the stones into ten parts,but the last bandit,‘J’got one stone less than other bandits.
+So the remaining nine bandits murder‘J’.They again decided to divide the stones into nineparts.
+But this timeagain,thelastbandit‘I’gotoneless stonethanotherbandits.Soagain,
+theremaining8bandits murder‘I’anddivideallstonesbetweentheremaining8 bandits.Butagain,thistime,‘H’gotonelessstonethanthe other.
+This process goes on until 1 bandit is left,i.e.,‘A’.
+After that,‘A’takes all the stones and runs away. Now you have to guess the total number of stones.
+
+Solution:-
+If there was 1 more stone in a first attempt, the stones could be easily divided among 10 bandits.
+And in the second attempt also the stones could be equally divided among 9 bandits and so on. 
+So let's just add one stone to the total number of stones. So the total stones become N+1.
+Now this (N+1) should be divisible by 10. It should be divisible by 9, 8, 7, 6, 5, 4, 3, 2, 1. 
+So our answer should be LCM of (10, 9, 8, 7, 6, 5, 4, 3, 2, 1). 
+Total Number of stones = LCM of (10, 9, 8, 7, 6, 5, 4, 3, 2, 1) which is 2520. 
+Now we have to subtract 1 stone which we have added before, so the total number of stones is 2519.
