@@ -1,0 +1,4 @@
+Your task is to place 10 coconuts in 5 lines such that each line has 4 coconuts.
+
+Solution:-
+You have to place them in a star shape with the centre being a pentagon. Each coconut will be placed at the intersection and meeting point of 2 lines.
