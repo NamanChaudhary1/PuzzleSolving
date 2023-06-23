@@ -1,0 +1,12 @@
+Problem:-
+You have a room behind a door and there are three bulbs inside the room. 
+You can find its three switches outside the door.
+You can switch them on and off as many times as you wish but once you open the door you cannot change them. 
+Identify which switch is connected to which bulb.
+
+Solution:-
+Let the lightbulbs be X, Y and Z.
+Switch on and off X for 5 to 10 times. 
+Now immediately switch off X and switch on Y and open the door. 
+The lightbulb which is on is Y. The lightbulb which is hot but off is X.
+The lightbulb which is off and cold is Z.
