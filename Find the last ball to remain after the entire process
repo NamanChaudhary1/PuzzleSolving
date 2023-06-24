@@ -1,0 +1,18 @@
+Problem Statement: You have 20 Red and 16 Blue balls in a bag. You pull out 2 balls one after another. 
+If the balls are of the same color, then you replace them with a Blue ball – but if they are of different color,
+you replace them with a Red ball. Once you take out the balls,
+you do not put them back in the bag – so the balls keep reducing. What would be the color of the last ball remaining in the bag?
+
+Answer: Blue Balls
+Observations:
+There are basically 3 Cases:
+1.When colors of both the picked balls are Red: Here, overall red balls are reduced by 2 and blue balls are increased by 1.
+2.When colors of both the picked balls are Blue: Here, overall blue balls are decreased by 1.
+3.When colors of both the picked balls are different: Here also, overall blue balls are decreased by 1.
+Red Balls can only be reduced by two and that is in the 1st condition, i.e., if you choose both red balls, then they are replaced by a single blue ball, 
+in no other ways you can reduce red balls. 
+Blue Balls can be reduced by one in the  2nd  and 3rd condition if you choose both balls as blue and if both balls are of different color.
+Now, since red balls are always reduced by two. So, at any point during the replacement process the count of red balls is always even,
+i.e. you will end up with either 0 or 2 or 4…(even number) red balls in the bag. 
+There will never be a situation in which the bag contains an odd number of red balls. 
+As a result, the last ball in the bag will be a blue ball in any combination of replacements.
