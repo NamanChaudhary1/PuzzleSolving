@@ -1,0 +1,36 @@
+Given below are a puzzle based on 2 eggs and 100 floors building. Let’s see the following:
+
+There is a 100 floors building. 
+
+There are two possible scenes we need to analyze:
+
+If an egg drops from the N’th floor or above it will break.
+If it’s dropped from any floor below ‘N’, it will not break
+Note: You’re given only 2 eggs 
+
+Questions:
+
+1 – Find the N’th floor.
+
+2 – How many drops do you need to make?
+
+3 – What should be the best strategy to minimize the number of egg drops?
+
+Solution:-
+Let’s start the method from the 10th floor and go up to 10 floors at a time.
+
+What we have to do:
+
+Step 1: Throw the egg from the 10th floor, and if it breaks, then we can conclude that the ‘N’ floor is between 1-9.
+
+Step 2: Repeat the same process if the egg is unbroken on the 10th, and now throw it from the 20th floor. Repeat the process until the 100th floor.
+
+Step 3: So, even if the first egg is unbroken, we can now try the second egg and throw it from floors 91 – 99.
+
+Let’s count the drops:
+
+10 drops on each 10th floor (1 – 100)
+9 drops in between the floors (91 – 99)
+So, the number of drops in the worst-case scenario is 19.
+
+
