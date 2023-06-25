@@ -1,0 +1,11 @@
+Sum Sam and Product Pete are in class when their teacher gives Sam the Sum of two numbers and Pete the product of the same two numbers (these numbers are greater than or equal to 2). They must figure out the two numbers.
+
+Sam: I don’t know what the numbers are Pete.
+Pete: I knew you didn’t know the numbers… But neither do I.
+Sam: In that case, I do know the numbers.
+What are the numbers?
+
+Solution:-
+Assume numbers are a and b
+As Sam has sum of no. a + b = x (which has given )—————(1)
+and Pete has product a*b = y (given)
