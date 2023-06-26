@@ -1,0 +1,12 @@
+Go through the page to understand the detailed solution to the Bulb in a Circle Puzzle.
+On a circle there are 2014 light bulbs, 2 are ON, and 2012 are OFF. You can choose any bulb and change the neighbor’s state i.e. ON to OFF or OFF to ON.
+Doing so, What is the maximum number of bulbs we can turn on?
+
+
+What we think depends on the number of light bulbs and the order the two lighted bulbs are in.
+
+There can be 4 cases
+Case 1: If the two lighted bulbs are next to each other and the total number of lightbulbs is an odd multiple of 2 (odd # * 2), then we can turn on all bulbs.
+ Case 2: If the two lighted bulbs are next to each other and the total number of lightbulbs is an even multiple of 2 (even # * 2), then we can turn on all but 2, **unless the total number of bulbs is 2, which doesn’t make sense here as a scenario anyways.
+Case 3: If the two lighted bulbs have a one bulb gap between them, and the total number of lightbulbs is an odd multiple of 2 (odd # *2), then we can turn on all but 2.
+Case 4: If the two lighted bulbs have a one bulb gap between them, and the total number of lightbulbs is an even multiple of 2 (even # * 2), then we can turn on all bulbs.
