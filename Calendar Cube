@@ -1,0 +1,18 @@
+A corporate businessman has two cubes on his office desk.
+Every day he arranges both cubes so that the front faces show the current day of the month.
+What numbers are on the faces of the cubes to allow this?
+Note: You can’t represent the day “7” with a single cube with a side that says 7 on it.
+You have to use both cubes all the time. So the 7th day would be “07”.
+
+Solution:-
+Cube One has the following numbers: 0, 1, 2, 3, 4, 5
+
+Cube two has the following numbers: 0, 1, 2, 6, 7, 8
+
+The 6 doubles as a 9 when turned the other way around.
+
+There is no day 00, but you still need the 0 on both cubes in order to make all the numbers between 01 and 09.
+
+Alternate solutions are also possible e.g.
+Cube One: 1, 2, 4, 0, 5, 6
+Cube Two: 3, 1, 2, 7, 8, 0
