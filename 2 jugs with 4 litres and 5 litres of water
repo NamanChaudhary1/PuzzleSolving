@@ -1,0 +1,11 @@
+Problem:-
+There are 2 jugs with 4 litres and 5 litres of water respectively. The objective is to pour exactly 7 litres of water in a bucket. How can it be accomplished?
+
+Solution:-
+This question can be rated of medium difficulty and shouldn’t ideally take more than 2 minutes to answer. 
+The approach here is to initially fill the 5L jug with water and empty the same into the 4L jug.
+The 5L jug will be left with 1L of water, which is poured into the bucket. 
+Meanwhile, empty the 4L jug.
+The above step is repeated, so that the bucket now is filled with 2L of water. 
+Finally, fill the 5L jug with water and empty the same into the bucket. 
+The bucket will now have 7L of water, as you add % L directly to the previously collected 2L of water in the bucket.
