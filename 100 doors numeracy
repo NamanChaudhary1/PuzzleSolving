@@ -1,0 +1,11 @@
+there are 100 doors in a single row that are all closed. You make 100 passes by each door, starting at the first door each time. 
+On the first time you pass, you visit every door, and if it's closed, you open it, and if it's open, you close it.
+On your second pass by, you only visit every other door, starting from the second door in line so that you're skip-counting the doors by two.
+The third pass you go to every third door, the fourth pass every fourth door, and so on until you have only passed by the hundredth door. 
+During your last pass by, which of the doors are still open and which ones are closed?
+
+Solution:-
+For every door you pass, you pass it the same number of times as the divisors in the door's number. 
+For instance, if you pass by door 38, you can find the divisors of 38 as one, two, 19, 38 and so on. 
+Therefore, on your first visit, you open the door, 
+then on the second pass you close it, on your 19th pass you open it and on the 38th visit you close it.
