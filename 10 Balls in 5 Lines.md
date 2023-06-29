@@ -1,3 +1,4 @@
+Problem :- 
 Given are ten balls, the task is to place these 10 balls in five lines such that each line contain exactly 4 balls.
 Sol:-
 1 Draw the star with a pentagon in the centre.
